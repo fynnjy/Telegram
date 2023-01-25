@@ -1,0 +1,22 @@
+{
+    "USD": {
+        "currency_name": "USD",
+        "currency_buy": "39,80",
+        "currency_sale": "40,30"
+    },
+    "EUR": {
+        "currency_name": "EUR",
+        "currency_buy": "42,35",
+        "currency_sale": "43,35"
+    },
+    "PLN": {
+        "currency_name": "PLN",
+        "currency_buy": "8,10",
+        "currency_sale": "8,85"
+    },
+    "GBP": {
+        "currency_name": "GBP",
+        "currency_buy": "43,75",
+        "currency_sale": "47,85"
+    }
+}

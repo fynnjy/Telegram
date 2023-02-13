@@ -170,7 +170,7 @@ def news_bbc():
     news_dict = {}
     for news in all_news:
         news_date = news.find("time", class_="bbc-16jlylf e1mklfmt0").text.strip()
-        news_title = news.find("a", class_="bbc-uk8dsi e1d658bg0").text.strip()
+        news_title = news.find("a", class_="focusIndicatorDisplayBlock bbc-uk8dsi e1d658bg0").text.strip()
         news_link = news.find("a").get("href")
 
         news_id = news_link.split("-")[-1]
